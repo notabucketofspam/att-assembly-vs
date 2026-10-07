@@ -1,0 +1,20 @@
+{
+  "name": "att-assembly",
+  "version": "1.0.0",
+  "contributes": {
+    "languages": [
+      {
+        "id": "att-assembly",
+        "extensions": [".s"],
+        "aliases": ["AT&T Assembly", "asm"]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "att-assembly",
+        "scopeName": "source.s",
+        "path": "./syntaxes/att-assembly.tmLanguage.json"
+      }
+    ]
+  }
+}
